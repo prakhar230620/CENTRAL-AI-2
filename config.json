@@ -1,0 +1,6 @@
+{
+    "log_level": "INFO",
+    "max_tasks": 20,
+    "default_ai_model": "gpt-4",
+    "api_rate_limit": 100
+}
