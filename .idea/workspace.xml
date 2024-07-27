@@ -1,30 +1,108 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d9ed8e1-d433-4c54-aadb-8cf37885ea86" name="Changes" comment="" />
+    <list default="true" id="3d9ed8e1-d433-4c54-aadb-8cf37885ea86" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/api_gateway/init.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api_gateway/rate_limiter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api_gateway/router.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api_gateway/version_manager.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/error_log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extension/config_updater.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extension/init.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extension/plugin_manager.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extension/service_discovery.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitoring/error_logger.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitoring/init.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitoring/performance_monitor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitoring/usage_analytics.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security/access_control.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security/authentication.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security/encryption.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security/init.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui_adapter/command_interpreter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui_adapter/event_broadcaster.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui_adapter/init.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui_adapter/response_formatter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ai_integration/connector_hub.py" beforeDir="false" afterPath="$PROJECT_DIR$/ai_integration/connector_hub.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ai_integration/init.py" beforeDir="false" afterPath="$PROJECT_DIR$/ai_integration/init.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ai_integration/model_registry.py" beforeDir="false" afterPath="$PROJECT_DIR$/ai_integration/model_registry.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ai_integration/training_pipeline.py" beforeDir="false" afterPath="$PROJECT_DIR$/ai_integration/training_pipeline.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/dynamic_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/dynamic_config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/init.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/init.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/kernel.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/kernel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/resource_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/resource_manager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_management/data_intake.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_management/data_intake.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_management/init.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_management/init.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_management/preprocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_management/preprocessing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_management/storage_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_management/storage_manager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_orchestration/init.py" beforeDir="false" afterPath="$PROJECT_DIR$/task_orchestration/init.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_orchestration/load_balancer.py" beforeDir="false" afterPath="$PROJECT_DIR$/task_orchestration/load_balancer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_orchestration/result_aggregator.py" beforeDir="false" afterPath="$PROJECT_DIR$/task_orchestration/result_aggregator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_orchestration/scheduler.py" beforeDir="false" afterPath="$PROJECT_DIR$/task_orchestration/scheduler.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;prakhar230620&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/prakhar230620/CENTRAL-AI-2.git&quot;,
+    &quot;accountId&quot;: &quot;43468b0a-e73b-4be2-852c-d8502a8f413b&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2jmnqAzNllZ6Baw55KiYnf4Yw5u" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Python.error_logger.executor&quot;: &quot;Run&quot;,
+    &quot;Python.init.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.performance_monitor.executor&quot;: &quot;Run&quot;,
+    &quot;Python.preprocessing.executor&quot;: &quot;Run&quot;,
+    &quot;Python.storage_manager.executor&quot;: &quot;Run&quot;,
+    &quot;Python.usage_analytics.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\prakh\PycharmProjects\CENTRAL AI 2" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="CENTRAL AI 2" />
@@ -67,15 +145,7 @@
     </task>
     <servers />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>8</line>
-          <option name="timeStamp" value="$HF_HUB_DISABLE_SYMLINKS_WARNING$" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
