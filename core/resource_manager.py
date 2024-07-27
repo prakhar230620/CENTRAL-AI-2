@@ -19,12 +19,12 @@ class ResourceManager:
         cpu_percent = psutil.cpu_percent()
         memory_percent = psutil.virtual_memory().percent
 
-        if cpu_percent > self.cpu_threshold:
-            self.logger.warning(f"CPU usage is high: {cpu_percent}%")
-        if memory_percent > self.memory_threshold:
-            self.logger.warning(f"Memory usage is high: {memory_percent}%")
+        status = "normal"
+        if cpu_percent > self.cpu_threshold or memory_percent > self.memory_threshold:
+            status = "high"
 
         return {
+            'status': status,
             'cpu': cpu_percent,
             'memory': memory_percent
         }

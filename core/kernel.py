@@ -1,6 +1,8 @@
 import logging
+from flask import jsonify
 from core.resource_manager import ResourceManager
 from core.dynamic_config import DynamicConfig
+
 
 class Kernel:
     def __init__(self):
@@ -33,3 +35,10 @@ class Kernel:
         self.dynamic_config.update_config(new_config)
         # Add logic to apply new configuration
         self.logger.info("Configuration updated successfully")
+
+    def get_status(self):
+        return jsonify({
+            "status": "running",
+            "resources": self.resource_manager.check_resources(),
+            "config": self.dynamic_config.config
+        })

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI System Core</title>
+    <link rel="stylesheet" href="styles/core.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/core.css') }}">
+<script src="{{ url_for('static', filename='scripts/core.js') }}"></script>
+</head>
+<body>
+    <div id="app">
+        <header>
+            <h1>AI System Core</h1>
+        </header>
+        <main>
+            <section id="status">
+                <h2>System Status</h2>
+                <p id="statusText">Loading...</p>
+            </section>
+            <section id="resources">
+                <h2>Resource Usage</h2>
+                <div id="cpuUsage">CPU: <span>-</span></div>
+                <div id="memoryUsage">Memory: <span>-</span></div>
+            </section>
+            <section id="config">
+                <h2>Configuration</h2>
+                <ul id="configList"></ul>
+            </section>
+            <section id="controls">
+                <button id="startBtn">Start Kernel</button>
+                <button id="stopBtn">Stop Kernel</button>
+                <button id="updateConfigBtn">Update Config</button>
+            </section>
+        </main>
+    </div>
+    <script src="scripts/core.js"></script>
+</body>
+</html>

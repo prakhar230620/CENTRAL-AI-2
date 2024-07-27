@@ -130,6 +130,7 @@ def main():
         alice_token = auth.login("alice", "password123", user_database)
         if alice_token:
             logger.info("Alice logged in successfully")
+
             usage_analytics.record_event("login", user_id=1)
 
             # Assign role to Alice
